@@ -39,6 +39,10 @@ a:visited {
   color: #a0a;
 }
 
+dd {
+  margin: 0 10px 10px;
+}
+
 /*****************************************************************************/
 /*
 /* Site
@@ -53,18 +57,18 @@ a:visited {
   line-height: 1.5em;
 }
 
-.title {
+h1 {
   color: #a00;
   font-weight: bold;
   margin-bottom: 2em;
 }
 
-.site .title a {
+h1 a, h1 a:visited {
   color: #a00;
   text-decoration: none;
 }
 
-.site .title a:hover {
+h1 a:hover {
   color: #121621;
 }
 
@@ -88,4 +92,3 @@ a:visited {
 .site .footer .contact a {
   color: #8085C1;
 }
-
